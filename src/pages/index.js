@@ -7,7 +7,7 @@ const IndexPage = () => {
   return(
 <>
 <Layout>
-  <h1>hello</h1>
+  <h1 style={{color:"pink"}}>hello</h1>
 </Layout>
 
 </>

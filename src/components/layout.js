@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
     return (
         <>
          <Navbar />
-        <Hero />
+         <Hero />
          <main>{children}</main>
         </>
            

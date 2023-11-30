@@ -11,9 +11,13 @@ export const Nav = styled.nav`
       position: sticky;
       top:0;
       z-index: 999;
-      padding: 20px 170px;
+      padding: 20px 160px;
 
-     
+     @media screen and (max-width:1100px){
+      padding : 20px 100px;
+     }
+
+     width:100%
 `;
 
 export const NavbarContainer = styled.div`
@@ -34,6 +38,12 @@ font-size: 1.5rem;
 display: flex;
 align-items: center;
 
+@media screen and (max-width:960px){
+  position: absolute;
+  left:25px;
+  top:40px;
+}
+
 `
 
 
@@ -43,7 +53,7 @@ display: none;
 @media screen and (max-width: 960px){
   display : block;
   position: absolute;
-  top:0;
+  top:18px;
   right: 0;
   transform: translate(-100%, 60%);
   font-size:1.8rem;
@@ -121,7 +131,8 @@ z-index: 100;
 font-family: Neurial Grotesk, sans-serif;
 text-transform: uppercase;
 line-height:19px;
-margin: 0 10px;
+margin: 0 20px;
+margin-left: 40px;
 
 &hover{
   box-shadow: 0 3px 18px 0 #A8EF9C;
